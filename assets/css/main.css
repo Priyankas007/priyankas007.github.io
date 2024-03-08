@@ -8618,8 +8618,9 @@ input, select, textarea {
 
 .circle-image {
 	display: flex;
-	justify-content: right; /* Center horizontally */
-	align-items: center; /* Center vertically */
+	justify-content: flex-end; /* Align children (the img) to the right */
+	align-items: center; /* Center children vertically */
+	height: 100%; /* Ensure the container has a height to enable vertical centering */
 }
 
 .circle-image img { /* This targets the img element directly */
