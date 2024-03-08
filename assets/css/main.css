@@ -8615,6 +8615,14 @@ input, select, textarea {
 }
 
 /* Circle image style */
+
+.circle-image {
+	display: flex;
+	justify-content: center; /* Center horizontally */
+	align-items: center; /* Center vertically */
+	height: 100%; /* Take full height of the banner */
+}
+
 .circle-image img { /* This targets the img element directly */
 	width: 50%; /* Set the width of the image */
 	height: auto; /* Set the height of the image */
