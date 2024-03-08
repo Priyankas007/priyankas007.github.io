@@ -2638,6 +2638,11 @@ input, select, textarea {
 			display: block;
 			border-radius: 4px;
 		}
+		.image circle img {
+			display: block;
+			border-radius: 50%
+		}
+
 
 		.image.left, .image.right {
 			width: 40%;
@@ -8630,16 +8635,4 @@ input, select, textarea {
 	border-radius: 50%; /* This creates the circular shape */
 	object-fit: cover; /* This ensures the image covers the circle nicely */
 	display: block; /* This ensures the image is treated as a block-level element, which can help in certain layouts */
-	justify-content: right;
 }
-
-.circle-protrait-pri img{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	overflow: hidden;
-	border-radius: 50%; } 
-
-.circular--portrait img { 
-	width: 50%;
-	height: auto; }
