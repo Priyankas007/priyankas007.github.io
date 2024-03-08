@@ -8621,3 +8621,14 @@ input, select, textarea {
 	object-fit: cover; /* This ensures the image covers the circle nicely */
 	display: block; /* This ensures the image is treated as a block-level element, which can help in certain layouts */
 }
+
+.circle-protrait-pri {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%; } 
+
+.circular--portrait img { 
+	width: 20%;
+	height: auto; }
