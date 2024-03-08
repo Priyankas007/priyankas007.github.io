@@ -18,6 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
+	display: flex;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -3472,7 +3473,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			width: 50%;
+			width: 70%;
 			max-width: 48rem;
 			margin: 0 auto;
 		}
@@ -8621,6 +8622,7 @@ input, select, textarea {
 	justify-content: flex-end; /* Align children (the img) to the right */
 	align-items: center; /* Center children vertically */
 	height: 100%; /* Ensure the container has a height to enable vertical centering */
+	padding: 20px;
 }
 
 .circle-image img { /* This targets the img element directly */
