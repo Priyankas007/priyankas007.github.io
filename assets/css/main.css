@@ -8604,21 +8604,21 @@ input, select, textarea {
 
 /* Banner style */
 .banner_pri {
-	background-color: #007bff; /* Blue background */
+	background-color: #1A4314; /* Forest Green background */
 	padding: 20px; /* Padding around the content */
 	color: white; /* Text color */
 	text-align: left; /* Align text to the left */
 	display: flex; /* Use flexbox for layout */
 	align-items: center; /* Center items vertically */
 	justify-content: space-between; /* Space between text and image */
-	height: 30vh;
+	height: 10vh;
 }
 
 /* Circle image style */
 
 .circle-image {
 	display: flex;
-	justify-content: center; /* Center horizontally */
+	justify-content: right; /* Center horizontally */
 	align-items: center; /* Center vertically */
 }
 
