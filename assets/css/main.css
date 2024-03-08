@@ -8614,10 +8614,10 @@ input, select, textarea {
 }
 
 /* Circle image style */
-.circle-image img { /* Targeting the img tag within .circle-image */
-	width: 20px; /* Width of the image */
-	height: 20x; /* Height of the image */
-	border-radius: 50%; /* Make the image round */
-	object-fit: cover; /* Ensure the image covers the circular area without distortion */
-	border: 3px solid white; /* Optional: white border around the image */
+.circle-image img { /* This targets the img element directly */
+	width: 100px; /* Set the width of the image */
+	height: 100px; /* Set the height of the image */
+	border-radius: 50%; /* This creates the circular shape */
+	object-fit: cover; /* This ensures the image covers the circle nicely */
+	display: block; /* This ensures the image is treated as a block-level element, which can help in certain layouts */
 }
