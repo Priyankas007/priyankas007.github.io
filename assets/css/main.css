@@ -8628,6 +8628,7 @@ input, select, textarea {
 	border-radius: 50%; /* This creates the circular shape */
 	object-fit: cover; /* This ensures the image covers the circle nicely */
 	display: block; /* This ensures the image is treated as a block-level element, which can help in certain layouts */
+	justify-content: right;
 }
 
 .circle-protrait-pri img{
