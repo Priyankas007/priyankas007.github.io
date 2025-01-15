@@ -37,9 +37,13 @@ redirect_from:
     <h3><strong>Coronavirus disease 2019 (COVID-19) vaccine boosting in persons already protected</strong></h3>
     <p><em>Shrestha N, <strong>Shrestha P</strong>, Patrick C. Burke, Amy S. Nowacki, Paul Terpeluk, Steven M. Gordon.</em><br>
       <a href="https://doi.org/10.1101/2022.02.10.22270744" target="_blank">DOI: 10.1101/2022.02.10.22270744</a><br>
-    <strong>Date:</strong> February 2022
-    <h3><strong>Poster Presentations</strong></h3>
-    <p><em>Annual Biomedical Research Conference for Minoritized Scientists (ABRCMS), 2023, Systems Biology 
+    <strong>Date:</strong> February 2022</p>
+    <h4><strong>More</strong></h4>
+    <p>
+    Gaussian Process School, Manchester, UK, 2023<br>
+    Stanford Undergraduate Research Conference, 2023<br>
+    Annual Biomedical Research Conference for Minoritized Scientists (ABRCMS), 2022, Systems Biology Poster Award Winner<br>
+    </p>
   </div>
 </div>
 
@@ -66,7 +70,7 @@ redirect_from:
   <div>
     <h2>Tinkering</h2>
     <h4>HipTracks</h4>
-    <img src="/images/hip_tracks_logo.png" alt="HipTracks App Screenshot" style="width: 100%; max-width: 400px; display: block; margin: 10px 0;">
+    <img src="/images/hip_tracks_logo.png" alt="HipTracks App Screenshot" style="width: 20%; max-width: 400px; display: block; margin: 5px 0;">
     <p>
       I helped develop an iOS app that uses biometric data from the Apple watch and AI to monitor hip and knee replacement patients post-operatively. My team won first place at the HealthHacks hackathon.
     </p>
