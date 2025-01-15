@@ -12,7 +12,7 @@ redirect_from:
   <h2>About Me 👩🏻‍💻 🧬 🖋️</h2>
   <p>👋 Hi there! I’m a master’s student at Stanford University 🌲, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, <em>Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics</em>, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. I've taken advanced coursework in machine learning, computer vision, natural language processing, and statistics.</p>
 
-   <p> Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and the Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. </p>
+   <p> Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. </p>
 
    <p>In the past, I've worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> to develop a binding model for antibodies at UCLA’s Department of Bioengineering through the Amgen Scholars program and as a research assistant at the Cleveland Clinic helping on data analysis on studies related to COVID vaccination. Most recently, I have led the design and development of bioinformatics data storage solutions as a software engineer at Roche.  </p>
 
@@ -22,7 +22,7 @@ redirect_from:
 <div>
   <h2>Publications and Conferences</h2>
   <div>
-  <div style="margin-bottom: 20px;">
+  <div style="margin-bottom: 5px;">
     <img src="/images/nnnsf_k=4_l=10,iter=5000_plot.png" alt="Nearest Neighbor Nonnegative Factorization Illustration" style="width: 60%; max-width: 600px; display: block; margin: 0 auto 15px;">
     <h3><strong>Nearest Neighbor Nonnegative Factorization Applied to Spatial and Time-series Transcriptomics</strong></h3>
     <p>
