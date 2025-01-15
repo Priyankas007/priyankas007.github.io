@@ -6,6 +6,34 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .publication {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .publication-title {
+            font-weight: bold;
+        }
+        .publication-details {
+            flex-grow: 1;
+            margin-right: 20px;
+        }
+        .publication-date {
+            white-space: nowrap;
+        }
+    </style>
+</head>
 
 <div class="header">
   <h1>About Me</h1>
@@ -18,16 +46,35 @@ redirect_from:
   </p>
 </div>
 
-<div class="header">
-  <h1>Publications</h1>
-  <p>
-  
-  Abraham AA, Tan ZC, Shrestha P, Bozich ER, Meyer AS (2024) A multivalent binding model infers antibody Fc species from systems serology. PLoS Comput Biol 20(12): e1012663. https://doi.org/10.1371/journal.pcbi.1012663 /n
-
-
-
-  </p>
-</div>
+<h1>Publications and Conferences</h1>
+    <div class="publication">
+        <div class="publication-details">
+            <div class="publication-title">Nearest Neighbor Nonnegative Factorization Applied to Spatial and Time-series Transcriptomics</div>
+            <div>Shrestha P, Diaz L, Engelhardt B. Intelligent Systems in Molecular Biology. Montreal, Canada.</div>
+        </div>
+        <div class="publication-date">July 2024</div>
+    </div>
+    <div class="publication">
+        <div class="publication-details">
+            <div class="publication-title">A multivalent binding model quantifies antibody species from systems serology</div>
+            <div>Abraham A, Tan Cyrillus, Shrestha P, Bozich E, Meyer A. <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">10.1101/2024.07.05.602296</a></div>
+        </div>
+        <div class="publication-date">June 2024</div>
+    </div>
+    <div class="publication">
+        <div class="publication-details">
+            <div class="publication-title">Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</div>
+            <div>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, Shrestha P, Procop G. <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">10.1101/2024.07.05.602296</a></div>
+        </div>
+        <div class="publication-date">Mar 2024</div>
+    </div>
+    <div class="publication">
+        <div class="publication-details">
+            <div class="publication-title">Coronavirus disease 2019 (COVID-19) vaccine boosting in persons already protected</div>
+            <div>Shrestha N, <b>Shrestha P</b>, Patrick C. Burke, Amy S. Nowacki, Paul Terpeluk, Steven M. Gordon. <a href="https://doi.org/10.1101/2022.02.10.22270744" target="_blank">10.1101/2022.02.10.22270744</a></div>
+        </div>
+        <div class="publication-date">Feb 2022</div>
+    </div>
 
 <div class="header">
   <h1>Storytelling</h1>
