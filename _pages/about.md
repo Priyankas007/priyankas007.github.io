@@ -10,7 +10,7 @@ redirect_from:
 
 <div>
   <h2>About Me 👩🏻‍💻 🧬 🖋️</h2>
-  <p>👋 Hi there! I’m a master’s student at Stanford University 🌲, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, <em>Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics</em>, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. </p>
+  <p>👋 Hi there! I’m a master’s student at Stanford University 🌲, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, <em>Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics</em>, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. I've taken advanced coursework in machine learning, computer vision, natural language processing, and statistics.</p>
 
    <p> Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and the Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. </p>
 
