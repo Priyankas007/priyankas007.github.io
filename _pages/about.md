@@ -62,26 +62,23 @@ redirect_from:
     </p>
   </p>
 </div>
+
 <div>
-  <p>
-    I like making and building. Here's some cool stuff I've made for classes and for fun.
-  </p>
-
-  <div>
     <h2>Tinkering</h2>
-    <h4>HipTracks</h4>
-    <img src="/images/hip_tracks_logo.png" alt="HipTracks App Screenshot" style="width: 20%; max-width: 400px; display: block; margin: 5px 0;">
-    <p>
-      I helped develop an iOS app that uses biometric data from the Apple watch and AI to monitor hip and knee replacement patients post-operatively. My team won first place at the HealthHacks hackathon.
-    </p>
-  </div>
-
-  <div>
+    I like making and building. Here's some cool stuff I've made for classes and for fun.
+    <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+      <img src="/images/hip_tracks_logo.png" alt="HipTracks App Logo" style="width: 20%; max-width: 100px; margin-right: 15px;">
+      <div>
+        <h4>HipTracks</h4>
+        <p>
+          I helped develop an iOS app that uses biometric data from the Apple watch and AI to monitor hip and knee replacement patients post-operatively. My team won first place at the HealthHacks hackathon.
+        </p>
+      </div>
+    </div>
     <h4>MCAT Mate</h4>
     <p>
       I utilized research from spaced repetition strategies to create a website for students to design and manage MCAT exam study schedules. I developed custom REST APIs & backend client-server protocol with Node.js and integrated a MongoDB database to manage user data/tasks. I implemented a fully functional user interface with accessibility features like a colorblind-friendly palette and alt text for enhanced usability.
     </p>
-  </div>
 </div>
 
 <div>
