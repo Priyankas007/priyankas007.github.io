@@ -22,14 +22,26 @@ redirect_from:
 <div>
   <h2>Publications and Conferences</h2>
   <div>
+  <div style="margin-bottom: 20px;">
+    <img src="/images/pages/nnnsf_k=4_l=10,iter=5000_plot.png" alt="Nearest Neighbor Nonnegative Factorization Illustration" style="width: 75%; max-width: 600px; display: block; margin: 0 auto 15px;">
     <h3><strong>Nearest Neighbor Nonnegative Factorization Applied to Spatial and Time-series Transcriptomics</strong></h3>
-    <p><em><strong>Shrestha P</strong>, Diaz L, Engelhardt B.</em><br>
-    <em>Intelligent Systems in Molecular Biology. Montreal, Canada.</em><br>
-    <strong>Date:</strong> July 2024
-    <h3><strong>A multivalent binding model quantifies antibody species from systems serology</strong></h3>
-    <p><em>Abraham A, Tan Cyrillus, <strong>Shrestha P</strong>, Bozich E, Meyer A.</em><br>
-    <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">DOI: 10.1101/2024.07.05.602296</a><br>
-    <strong>Date:</strong> June 2024
+    <p>
+      <em><strong>Shrestha P</strong>, Diaz L, Engelhardt B.</em><br>
+      <em>Intelligent Systems in Molecular Biology. Montreal, Canada.</em><br>
+    </p>
+  </div>
+  <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+    <div style="flex: 1;">
+      <strong>Date:</strong> July 2024
+      <h3><strong>A multivalent binding model quantifies antibody species from systems serology</strong></h3>
+      <p>
+        <em>Abraham A, Tan Cyrillus, <strong>Shrestha P</strong>, Bozich E, Meyer A.</em><br>
+        <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">DOI: 10.1101/2024.07.05.602296</a><br>
+        <strong>Date:</strong> June 2024
+      </p>
+    </div>
+    <img src="/images/antibody_model.png" alt="Antibody Model Illustration" style="width: 30%; max-width: 300px; margin-left: 15px; border-radius: 8px;">
+  </div>
     <h3><strong>Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</strong></h3>
     <p><em>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, <strong>Shrestha P</strong>, Procop G.</em><br>
       <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">DOI: 10.1101/2024.07.05.602296</a><br>
