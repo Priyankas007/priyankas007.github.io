@@ -24,13 +24,15 @@ redirect_from:
   
   Abraham AA, Tan ZC, Shrestha P, Bozich ER, Meyer AS (2024) A multivalent binding model infers antibody Fc species from systems serology. PLoS Comput Biol 20(12): e1012663. https://doi.org/10.1371/journal.pcbi.1012663 /n
 
+
+
   </p>
 </div>
 
 <div class="header">
   <h1>Storytelling</h1>
   <p>
-  I love writing and I dabble in fiction writing. A poem I wrote, <a href="https://therisingphoenixreview.com/2023/01/09/last-of-the-year-by-priyanka-shrestha/"> "Last of the Year"</a>, was published in The Rising Pheonix Review. Recently, I have been experimenting with oral storytelling. In 2022, I traveled around the U.S. interviewing first and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/"> HAMRO KATHA<a>. Currently am working on a podcast about digital medicine and the impact of telehealth on the physician patient relationship!
+  I love writing and I dabble in fiction writing. A poem I wrote, <a href="https://therisingphoenixreview.com/2023/01/09/last-of-the-year-by-priyanka-shrestha/"> "Last of the Year"</a>, was published in The Rising Pheonix Review. Recently, I have been experimenting with oral storytelling. In 2022, I traveled around the U.S. interviewing first and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/">HAMRO KATHA</a>. Currently am working on a podcast about digital medicine and the impact of telehealth on the physician patient relationship!
   </p>
 </div>
 
