@@ -67,6 +67,7 @@ redirect_from:
     <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
       <img src="/images/hip_tracks_logo.png" alt="HipTracks App Logo" style="width: 15%; max-width: 100px; margin-right: 15px;">
       <div>
+      <h3>HipTracks</h3>
         <p>
           I helped develop an iOS app that uses biometric data from the Apple watch and AI to monitor hip and knee replacement patients post-operatively. My team won first place at the HealthHacks hackathon.
         </p>
