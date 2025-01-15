@@ -11,13 +11,13 @@ redirect_from:
 <div>
   <h2>About Me</h2>
   <p>
-  👋 Hi there! I’m a master’s student at Stanford University 🌲, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, _"Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics"_, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. </b>
+  👋 Hi there! I’m a master’s student at Stanford University 🌲, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, _"Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics"_, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. <br>
 
   🧬 Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and the Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. </b>
 
-  🦠 In the past, I've worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> to develop a binding model for antibodies at UCLA’s Department of Bioengineering through the Amgen Scholars program and as a research assistant at the Cleveland Clinic helping on data analysis on studies related to COVID vaccination. Most recently, I have led the design and development of bioinformatics data storage solutions as a software engineer at Roche. </b>
+  🦠 In the past, I've worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> to develop a binding model for antibodies at UCLA’s Department of Bioengineering through the Amgen Scholars program and as a research assistant at the Cleveland Clinic helping on data analysis on studies related to COVID vaccination. Most recently, I have led the design and development of bioinformatics data storage solutions as a software engineer at Roche. <br>
 
-  🌟 I’m passionate about the intersection of technology and medicine, with a special fascination for genomics and its transformative potential in cancer care. Whether it's designing algorithms or tackling big questions in healthcare, I’m driven by the idea of using AI to unlock new possibilities in medicine. Reach me at shrestp[at]stanford[dot]edu! </b>
+  🌟 I’m passionate about the intersection of technology and medicine, with a special fascination for genomics and its transformative potential in cancer care. Whether it's designing algorithms or tackling big questions in healthcare, I’m driven by the idea of using AI to unlock new possibilities in medicine. Reach me at shrestp[at]stanford[dot]edu! <br>
   </p>
 </div>
 
@@ -30,9 +30,6 @@ redirect_from:
     <p><em>Intelligent Systems in Molecular Biology. Montreal, Canada.</em></p>
     <p><strong>Date:</strong> July 2024</p>
   </div>
-
-  <hr>
-
   <div>
     <h3><strong>A multivalent binding model quantifies antibody species from systems serology</strong></h3>
     <p><em>Abraham A, Tan Cyrillus, Shrestha P, Bozich E, Meyer A.</em></p>
@@ -41,9 +38,6 @@ redirect_from:
     </p>
     <p><strong>Date:</strong> June 2024</p>
   </div>
-
-  <hr>
-
   <div>
     <h3><strong>Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</strong></h3>
     <p><em>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, Shrestha P, Procop G.</em></p>
