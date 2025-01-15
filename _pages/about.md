@@ -23,7 +23,7 @@ redirect_from:
   <h2>Publications and Conferences</h2>
   <div>
   <div style="margin-bottom: 5px;">
-    <img src="/images/nnnsf_k=4_l=10,iter=5000_plot.png" alt="Nearest Neighbor Nonnegative Factorization Illustration" style="width: 60%; max-width: 600px; display: block; margin: 0 auto 5px;">
+    <img src="/images/nnnsf_k=4_l=10,iter=5000_plot.png" alt="Nearest Neighbor Nonnegative Spatial Factorization Illustration" style="width: 60%; max-width: 600px; display: block; margin: 0 auto 5px;">
     <h3><strong>Nearest Neighbor Nonnegative Factorization (NNNSF) Applied to Spatial and Time-series Transcriptomics</strong></h3>
     <p>
       <em><strong>Shrestha P</strong>, Diaz L, Engelhardt B.</em><br>
