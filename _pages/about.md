@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<div style="font-size: 13px; line-height: 1.5;">
+<div style="font-size: 14px; line-height: 1.5;">
 
 <div>
   <h2>About Me 👩🏻‍💻 🧬 🖋️</h2>
