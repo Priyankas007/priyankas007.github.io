@@ -77,13 +77,13 @@ redirect_from:
     </div>
 
 <div class="header">
-  <h1>Storytelling</h1>
+  <h1>Stories</h1>
   <p>
-  I love writing and I dabble in fiction writing. A poem I wrote, <a href="https://therisingphoenixreview.com/2023/01/09/last-of-the-year-by-priyanka-shrestha/"> "Last of the Year"</a>, was published in The Rising Pheonix Review. Recently, I have been experimenting with oral storytelling. In 2022, I traveled around the U.S. interviewing first and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/">HAMRO KATHA</a>. Currently am working on a podcast about digital medicine and the impact of telehealth on the physician patient relationship!
+  I love writing and storytelling (I have a minor in creative writing!). A poem I wrote, <a href="https://therisingphoenixreview.com/2023/01/09/last-of-the-year-by-priyanka-shrestha/"> "Last of the Year"</a>, was published in The Rising Pheonix Review. Recently, I have been experimenting with oral storytelling. In 2022, I traveled around the U.S. interviewing first and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/">HAMRO KATHA</a>. Currently, am working on a podcast about digital medicine and the impact of telehealth on the physician patient relationship <a href="https://www.podbean.com/media/share/pb-vgtbc-17736d9?action=openEpisode&episodeId=pb24590041&episodeIdTag=vgtbc&podcastId=pbblog19813022&podcastIdTag=2b9hh&utm_campaign=admin_episode&utm_medium=dlink&utm_source=episode_share">(WIP)</a> here!
   </p>
 </div>
 
 <div class="header">
   <h1>Life</h1>
-  <p>I love dancing, writing, and event-planning. I danced competatively for four years and captained a Garba Raas dance team in college!</p>
+  <p>I danced competatively for four years and captained a Garba Raas dance team in college!</p>
 </div>
