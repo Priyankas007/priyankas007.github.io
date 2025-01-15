@@ -60,7 +60,7 @@ redirect_from:
 <div>
   <h2>Stories</h2>
   <p>
-    I love writing and storytelling (I have a minor in creative writing!). In 2022, I traveled around the U.S. interviewing first and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/">HAMRO KATHA</a>. Currently, I am working on a podcast about digital medicine and the impact of telehealth on the physician-patient relationship. You can find a work-in-progress <a href="https://www.podbean.com/media/share/pb-vgtbc-17736d9?action=openEpisode&episodeId=pb24590041&episodeIdTag=vgtbc&podcastId=pbblog19813022&podcastIdTag=2b9hh&utm_campaign=admin_episode&utm_medium=dlink&utm_source=episode_share">here</a>!
+    I love writing and storytelling (I have a minor in creative writing!). In 2022, I traveled around the U.S. interviewing first- and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/">HAMRO KATHA</a>. Currently, I am working on a podcast about digital medicine and the impact of telehealth on the physician-patient relationship. You can find a work-in-progress <a href="https://www.podbean.com/media/share/pb-vgtbc-17736d9?action=openEpisode&episodeId=pb24590041&episodeIdTag=vgtbc&podcastId=pbblog19813022&podcastIdTag=2b9hh&utm_campaign=admin_episode&utm_medium=dlink&utm_source=episode_share">here</a>!
     <h3> Literary Publications </h3>
     <p>
     "Letter to Sagarmatha", Oakland Arts Review, Vol 8., Spring 2023<br>
