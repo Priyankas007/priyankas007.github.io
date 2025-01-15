@@ -92,7 +92,7 @@
       }
 
       &.current {
-        color: #fff;
+        color: #EDE8F5;
         background: $primary-color;
       }
 
@@ -336,7 +336,7 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    color: #fff;
+    color: #EDE8F5;
     font-weight: bold;
     background: $primary-color;
     border-radius: $border-radius;
@@ -376,13 +376,13 @@
   color: $gray;
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: #EDE8F5;
   border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: #EDE8F5;
     font-size: $type-size-6;
     background: $primary-color;
     border-top-left-radius: $border-radius;
