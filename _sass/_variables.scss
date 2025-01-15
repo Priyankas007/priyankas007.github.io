@@ -57,12 +57,12 @@ $sidebar-link-max-width     : 250px;
 
 $gray                       : #7a8288;
 $dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
+$darker-gray                : #000; /*mix(#000, $gray, 60%);*/
 $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #EDE8F5;
-$background-color           : #EDE8F5;
+$background-color           : #fff;
 $code-background-color      : #EDE8F5;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
