@@ -40,7 +40,7 @@ redirect_from:
         <strong>Date:</strong> June 2024
       </p>
     </div>
-    <img src="/images/anitbody_model.png" alt="Antibody Model Illustration" style="width: 20%; max-width: 300px; margin-left: 15px; border-radius: 8px;">
+    <img src="/images/anitbody_model.png" alt="Antibody Model Illustration" style="width: 30%; max-width: 300px; margin-left: 15px; border-radius: 8px;">
   </div>
     <h3><strong>Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</strong></h3>
     <p><em>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, <strong>Shrestha P</strong>, Procop G.</em><br>
