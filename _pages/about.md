@@ -23,7 +23,7 @@ redirect_from:
   <h2>Publications and Conferences</h2>
   <div>
   <div style="margin-bottom: 5px;">
-    <img src="/images/nnnsf_k=4_l=10,iter=5000_plot.png" alt="Nearest Neighbor Nonnegative Factorization Illustration" style="width: 60%; max-width: 600px; display: block; margin: 0 auto 15px;">
+    <img src="/images/nnnsf_k=4_l=10,iter=5000_plot.png" alt="Nearest Neighbor Nonnegative Factorization Illustration" style="width: 60%; max-width: 600px; display: block; margin: 0 auto 5px;">
     <h3><strong>Nearest Neighbor Nonnegative Factorization Applied to Spatial and Time-series Transcriptomics</strong></h3>
     <p>
       <em><strong>Shrestha P</strong>, Diaz L, Engelhardt B.</em><br>
@@ -40,7 +40,7 @@ redirect_from:
         <strong>Date:</strong> June 2024
       </p>
     </div>
-    <img src="/images/anitbody_model.png" alt="Antibody Model Illustration" style="width: 30%; max-width: 300px; margin-left: 15px; border-radius: 8px;">
+    <img src="/images/anitbody_model.png" alt="Antibody Model Illustration" style="width: 20%; max-width: 300px; margin-left: 15px; border-radius: 8px;">
   </div>
     <h3><strong>Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</strong></h3>
     <p><em>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, <strong>Shrestha P</strong>, Procop G.</em><br>
