@@ -28,11 +28,11 @@ redirect_from:
     <p>
       <em><strong>Shrestha P</strong>, Diaz L, Engelhardt B.</em><br>
       <em>Intelligent Systems in Molecular Biology. Montreal, Canada.</em><br>
+      <strong>Date:</strong> July 2024
     </p>
   </div>
   <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
     <div style="flex: 1;">
-      <strong>Date:</strong> July 2024
       <h3><strong>A multivalent binding model quantifies antibody species from systems serology</strong></h3>
       <p>
         <em>Abraham A, Tan Cyrillus, <strong>Shrestha P</strong>, Bozich E, Meyer A.</em><br>
