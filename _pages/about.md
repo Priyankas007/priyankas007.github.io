@@ -66,7 +66,7 @@ redirect_from:
   <div>
     <h2>Tinkering</h2>
     <h4>HipTracks</h4>
-    <img src="/images/to/hip_tracks_logo.png" alt="HipTracks App Screenshot" style="width: 100%; max-width: 400px; display: block; margin: 10px 0;">
+    <img src="/images/hip_tracks_logo.png" alt="HipTracks App Screenshot" style="width: 100%; max-width: 400px; display: block; margin: 10px 0;">
     <p>
       I helped develop an iOS app that uses biometric data from the Apple watch and AI to monitor hip and knee replacement patients post-operatively. My team won first place at the HealthHacks hackathon.
     </p>
