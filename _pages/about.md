@@ -6,75 +6,45 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        .publication {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 20px;
-        }
-        .publication-title {
-            font-weight: bold;
-        }
-        .publication-details {
-            flex-grow: 1;
-            margin-right: 20px;
-        }
-        .publication-date {
-            white-space: nowrap;
-        }
-    </style>
-</head>
 
 <div class="header">
   <h1>About Me</h1>
   <p>
-  Hi there! 👋 I’m a master’s student at Stanford University, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, "Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics", explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes.
+  Hi there! 👋 I’m a master’s student at Stanford University, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, "Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics", explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. </b>
 
-  Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and the Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. In the past, I've worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> to develop a binding model for antibodies at UCLA’s Department of Bioengineering through the Amgen Scholars program and as a research assistant at the Cleveland Clinic helping on data analysis on studies related to COVID vaccination. Most recently, I have led the design and development of bioinformatics data storage solutions as a software engineer at Roche.
+  Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and the Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. In the past, I've worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> to develop a binding model for antibodies at UCLA’s Department of Bioengineering through the Amgen Scholars program and as a research assistant at the Cleveland Clinic helping on data analysis on studies related to COVID vaccination. Most recently, I have led the design and development of bioinformatics data storage solutions as a software engineer at Roche. </b>
 
-  I’m passionate about the intersection of technology and medicine, with a special fascination for genomics and its transformative potential in cancer care. Whether it's designing algorithms or tackling big questions in healthcare, I’m driven by the idea of using AI to unlock new possibilities in medicine. Reach me at shrestp[at]stanford[dot]edu!
+  I’m passionate about the intersection of technology and medicine, with a special fascination for genomics and its transformative potential in cancer care. Whether it's designing algorithms or tackling big questions in healthcare, I’m driven by the idea of using AI to unlock new possibilities in medicine. Reach me at shrestp[at]stanford[dot]edu! </b>
   </p>
 </div>
 
-<h1>Publications and Conferences</h1>
-    <div class="publication">
-        <div class="publication-details">
-            <div class="publication-title">Nearest Neighbor Nonnegative Factorization Applied to Spatial and Time-series Transcriptomics</div>
-            <div>Shrestha P, Diaz L, Engelhardt B. Intelligent Systems in Molecular Biology. Montreal, Canada.</div>
-        </div>
-        <div class="publication-date">July 2024</div>
-    </div>
-    <div class="publication">
-        <div class="publication-details">
-            <div class="publication-title">A multivalent binding model quantifies antibody species from systems serology</div>
-            <div>Abraham A, Tan Cyrillus, Shrestha P, Bozich E, Meyer A. <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">10.1101/2024.07.05.602296</a></div>
-        </div>
-        <div class="publication-date">June 2024</div>
-    </div>
-    <div class="publication">
-        <div class="publication-details">
-            <div class="publication-title">Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</div>
-            <div>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, Shrestha P, Procop G. <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">10.1101/2024.07.05.602296</a></div>
-        </div>
-        <div class="publication-date">Mar 2024</div>
-    </div>
-    <div class="publication">
-        <div class="publication-details">
-            <div class="publication-title">Coronavirus disease 2019 (COVID-19) vaccine boosting in persons already protected</div>
-            <div>Shrestha N, <b>Shrestha P</b>, Patrick C. Burke, Amy S. Nowacki, Paul Terpeluk, Steven M. Gordon. <a href="https://doi.org/10.1101/2022.02.10.22270744" target="_blank">10.1101/2022.02.10.22270744</a></div>
-        </div>
-        <div class="publication-date">Feb 2022</div>
-    </div>
+# Publications and Conferences
+
+### **Nearest Neighbor Nonnegative Factorization Applied to Spatial and Time-series Transcriptomics**
+*Shrestha P, Diaz L, Engelhardt B.*  
+_Intelligent Systems in Molecular Biology. Montreal, Canada._  
+**Date:** July 2024  
+
+---
+
+### **A multivalent binding model quantifies antibody species from systems serology**
+*Abraham A, Tan Cyrillus, Shrestha P, Bozich E, Meyer A.*  
+[DOI: 10.1101/2024.07.05.602296](https://doi.org/10.1101/2024.07.05.602296)  
+**Date:** June 2024  
+
+---
+
+### **Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds**
+*John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, Shrestha P, Procop G.*  
+[DOI: 10.1101/2024.07.05.602296](https://doi.org/10.1101/2024.07.05.602296)  
+**Date:** March 2024  
+
+---
+
+### **Coronavirus disease 2019 (COVID-19) vaccine boosting in persons already protected**
+*Shrestha N, **Shrestha P**, Patrick C. Burke, Amy S. Nowacki, Paul Terpeluk, Steven M. Gordon.*  
+[DOI: 10.1101/2022.02.10.22270744](https://doi.org/10.1101/2022.02.10.22270744)  
+**Date:** February 2022
 
 <div class="header">
   <h1>Stories</h1>
