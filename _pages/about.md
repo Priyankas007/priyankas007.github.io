@@ -36,7 +36,7 @@ redirect_from:
       <h3><strong>A multivalent binding model quantifies antibody species from systems serology</strong></h3>
       <p>
         <em>Abraham A, Tan Cyrillus, <strong>Shrestha P</strong>, Bozich E, Meyer A.</em><br>
-        <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">DOI: 10.1101/2024.07.05.602296</a><br>
+        <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012663" target="_blank">DOI: 10.1101/2024.07.05.602296</a><br>
         <strong>Date:</strong> June 2024
       </p>
     </div>
@@ -44,11 +44,11 @@ redirect_from:
   </div>
     <h3><strong>Detection of Clostridioides difficile infection by assessment of exhaled breath volatile organic compounds</strong></h3>
     <p><em>John M, Shrestha N, Hasan L, Pappan K, Birch O, grove D, Boyle B, Allsworth M, <strong>Shrestha P</strong>, Procop G.</em><br>
-      <a href="https://doi.org/10.1101/2024.07.05.602296" target="_blank">DOI: 10.1101/2024.07.05.602296</a><br>
+      <a href="https://iopscience.iop.org/article/10.1088/1752-7163/ad3572" target="_blank">DOI: 10.1088/1752-7163/ad3572</a><br>
     <strong>Date:</strong> March 2024
     <h3><strong>Coronavirus disease 2019 (COVID-19) vaccine boosting in persons already protected</strong></h3>
     <p><em>Shrestha N, <strong>Shrestha P</strong>, Patrick C. Burke, Amy S. Nowacki, Paul Terpeluk, Steven M. Gordon.</em><br>
-      <a href="https://doi.org/10.1101/2022.02.10.22270744" target="_blank">DOI: 10.1101/2022.02.10.22270744</a><br>
+      <a href="https://academic.oup.com/cid/article/75/12/2169/6574819" target="_blank">DOI: 10.1101/2022.02.10.22270744</a><br>
     <strong>Date:</strong> February 2022</p>
     <h3><strong>More</strong></h3>
     <p>
