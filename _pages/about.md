@@ -89,6 +89,10 @@ redirect_from:
     <p>
       I utilized research from spaced repetition strategies to create a website for students to design and manage MCAT exam study schedules. I developed custom REST APIs & backend client-server protocol with Node.js and integrated a MongoDB database to manage user data/tasks. I implemented a fully functional user interface with accessibility features like a colorblind-friendly palette and alt text for enhanced usability.
     </p>
+      <h3>Computer Vision for Colorectal Cancer</h3>
+    <p>
+      We utilized an image-based, multimodal graph convolutional neural network (SpaGCN) to cluster and profile the genomic makeup of colorectal cancer tumors from a spatial transcriptomics dataset achieving an Adjusted Rand Index (ARI) score of 0.48. To improve profiling, we modified the SpaGCN architecture in the following ways: (1) Developed a novel pixel distance decay weighting, and (2) implemented semi-supervised learning using pathologist annotations and (3)Jensen-Shannon divergence loss. We showed a 93% improvement in model performance from current state-of-the-art.
+    </p>
 </div>
 
 <div>
