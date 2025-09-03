@@ -8,18 +8,19 @@ redirect_from:
 ---
 <div style="font-size: 14px; line-height: 1.5;">
 
-<div>
+<div id="about-me">
   <h2>About Me 👩🏻‍💻 🧬 🖋️</h2>
-  <p>👋 Hi there! I’m a master’s student at Stanford University 🌲, studying computer science on the artificial intelligence track. In 2024, I earned my bachelor’s degree from Stanford, specializing in computer science with a focus on biocomputation. My undergraduate honors thesis, <em>Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics</em>, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis utilizing Gaussian processes. I've taken advanced coursework in machine learning, computer vision, natural language processing, and statistics.</p>
+  <p>👋 Hi there! I'm the co-founder and CTO of Galen AI, a health tech company putting medical data and insights directly into the hands of patients (we were covered by <a href="https://www.businessinsider.com/y-combinator-yc-demo-day-spring-ai-agent-startups-2025-6">Business Insider!</a>). I recently graduated with my M.S. in Computer Science on the AI track from Stanford University in 2025. In 2024, I earned my B.S. in Computer Science from Stanford, specializing in biocomputation. My undergraduate honors thesis, Nearest Neighbors Nonnegative Spatial Factorization to Study Spatial and Temporal Transcriptomics, explored optimization and dimensionality reduction approaches in spatial and temporal data analysis using Gaussian processes.
 
-   <p> Currently, I’m a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Stanford Biomedical Data Science Department and Gladstone Institutes, where I develop computational algorithms for spatial transcriptomics datasets. </p>
+<p>At Stanford, I served as a research assistant with <a href="https://profiles.stanford.edu/barbara-engelhardt">Dr. Barbara Engelhardt</a> at the Biomedical Data Science Department and Gladstone Institutes, where I developed computational algorithms for spatial transcriptomics.</p>
 
-   <p>In the past, I've worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> to develop a binding model for antibodies at UCLA’s Department of Bioengineering through the Amgen Scholars program and as a research assistant at the Cleveland Clinic helping on data analysis on studies related to COVID vaccination. Most recently, I have led the design and development of bioinformatics data storage solutions as a software engineer at Roche.  </p>
+<p>Previously, I worked with <a href="https://samueli.ucla.edu/people/aaron-meyer/">Dr. Aaron Meyer</a> at UCLA through the Amgen Scholars program to model antibody binding, and at the Cleveland Clinic on data analysis projects related to COVID vaccination. Most recently, I led the design and development of AI-enabled bioinformatics data storage solutions as a software engineer at Roche.</p> 
 
-   <p>I’m passionate about the intersection of technology and medicine, with a special fascination for genomics and its transformative potential in cancer care. Whether it's designing algorithms or products, I’m driven by the idea of using AI to unlock new possibilities in medicine. Reach me at shrestp[at]stanford[dot]edu! </p>
+<p>Whether it's designing algorithms, building products, or leading teams, I'm driven by the idea of using AI to unlock new possibilities in medicine. Reach me at priyanka[at]galenai[dot]com!</p>
+
 </div>
 
-<div>
+<div id="publications">
   <h2>Publications and Conferences</h2>
   <div>
   <div style="margin-bottom: 5px;">
@@ -57,7 +58,7 @@ redirect_from:
     Annual Biomedical Research Conference for Minoritized Scientists (ABRCMS), 2022, Systems Biology Poster Award Winner<br>
     </p>
 
-<div>
+<div id="stories">
   <h2>Stories</h2>
   <p>
     I love writing and storytelling (I have a minor in creative writing!). In 2022, I traveled around the U.S. interviewing first- and second-generation Nepali immigrants, compiling their stories into a project titled <a href="https://www.hamrokathacollection.com/">HAMRO KATHA</a>. Currently, I am working on a podcast about digital medicine and the impact of telehealth on the physician-patient relationship. You can find a work-in-progress <a href="https://www.podbean.com/media/share/pb-vgtbc-17736d9?action=openEpisode&episodeId=pb24590041&episodeIdTag=vgtbc&podcastId=pbblog19813022&podcastIdTag=2b9hh&utm_campaign=admin_episode&utm_medium=dlink&utm_source=episode_share">here</a>!
@@ -73,7 +74,7 @@ redirect_from:
   </p>
 </div>
 
-<div>
+<div id="portfolio">
     <h2>Portfolio</h2>
     I like making and building. Here's some cool stuff I've made for classes and for fun.
     <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
@@ -95,7 +96,7 @@ redirect_from:
     </p>
 </div>
 
-<div>
+<div id="life">
   <h2>Life 🌟</h2>
   <p>
     Outside of school and work I enjoy writing, dancing, and skateboarding! I danced competitively for four years and captained a <a herf="https://basmatiraas.wixsite.com/stanford">Garba Raas dance team</a> in college. We traveled and <a href="https://www.youtube.com/watch?v=O0qfBkuKii4">performed</a> and had a good time :)

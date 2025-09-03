@@ -1,29 +1,49 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD - Floating Glass Header
    ========================================================================== */
 
 .masthead {
   position: fixed;
-  background: #EDE8F5;
-  border-bottom: 1px solid $border-color;
-  height: $masthead-height;
-  top: 0;
-  width: 100%;
-
-  -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
-  -webkit-animation-delay: 0.15s;
-          animation-delay: 0.15s;
-  z-index: 20;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(60% - 40px);
+  max-width: 800px;
+  height: auto;
+  
+  /* Clear glass effect */
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  
+  /* Animation */
+  -webkit-animation: float-in 0.6s ease-out both;
+          animation: float-in 0.6s ease-out both;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  z-index: 1000;
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    top: 10px;
+    width: calc(95% - 20px);
+    border-radius: 20px;
+  }
 
   &__inner-wrap {
-    @include container;
-    @include clearfix;
-    padding: 1em 1em 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 25px;
     font-family: $sans-serif-narrow;
 
-    @include breakpoint($x-large) {
-      max-width: $x-large;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      padding: 15px 20px;
+      gap: 8px;
     }
 
     nav {
@@ -32,27 +52,168 @@
 
     a {
       text-decoration: none;
+      color: #333;
+      transition: color 0.3s ease;
+      
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  &__title-section {
+    flex-shrink: 0;
+  }
+
+  &__title {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: -0.5px;
+    
+    @media (max-width: 768px) {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+  }
+
+  &__menu {
+    flex-shrink: 0;
+    
+    nav {
+      display: flex;
+      align-items: center;
+    }
+    
+    .greedy-nav {
+      display: flex;
+      align-items: center;
+    }
+    
+    ul.visible-links {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      gap: 8px;
+      
+      @media (max-width: 768px) {
+        gap: 6px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+    }
+    
+    .greedy-nav__toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      
+      @media (max-width: 768px) {
+        display: block;
+      }
+      
+      .navicon {
+        width: 20px;
+        height: 3px;
+        background: #333;
+        position: relative;
+        
+        &:before,
+        &:after {
+          content: '';
+          position: absolute;
+          width: 20px;
+          height: 3px;
+          background: #333;
+        }
+        
+        &:before {
+          top: -6px;
+        }
+        
+        &:after {
+          top: 6px;
+        }
+      }
     }
   }
 }
 
-.masthead__menu {
-
-  ul {
-    margin: 0;
-    padding: 0;
-    clear: both;
-    list-style-type: none;
-  }
-}
-
 .masthead__menu-item {
-  display: block;
+  display: inline-block;
   list-style-type: none;
   white-space: nowrap;
 
-  &--lg {
-    padding-right: 3em;
-    font-weight: 700;
+  a {
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #333;
+    background: transparent;
+    text-decoration: none;
+    border-radius: 15px;  /* Add rounded corners */
+    transition: all 0.3s ease;  /* Smooth transitions */
+    
+    /* Add bounce animation on hover */
+    &:hover {
+      color: #000;
+      animation: bounce 0.6s ease-in-out;
+      transform: translateY(-2px);  /* Subtle lift effect */
+    }
+    
+    @media (max-width: 768px) {
+      padding: 5px 10px;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+/* Float-in animation */
+@keyframes float-in {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@-webkit-keyframes float-in {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Bounce animation keyframes */
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  80% {
+    transform: translateY(-4px);
+  }
+}
+
+/* Ensure content doesn't hide under floating header */
+body {
+  padding-top: 80px;
+  
+  @media (max-width: 768px) {
+    padding-top: 100px;
   }
 }

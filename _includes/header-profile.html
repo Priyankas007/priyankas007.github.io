@@ -1,0 +1,52 @@
+{% include base_path %}
+
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+
+<div class="header-profile" itemscope itemtype="http://schema.org/Person">
+  <div class="terminal-window">
+    <div class="header-profile__container">
+    <div class="header-profile__avatar">
+      {% if author.avatar contains "://" %}
+        <img src="{{ author.avatar }}" alt="{{ author.name }}">
+      {% else %}
+        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+      {% endif %}
+    </div>
+
+    <div class="header-profile__content">
+      <h1 class="header-profile__name">{{ author.name }}</h1>
+      {% if author.pronouns %}<p class="header-profile__pronouns">{{ author.pronouns }}</p>{% endif %}
+      {% if author.bio %}<p class="header-profile__bio">{{ author.bio }}</p>{% endif %}
+      
+      <div class="header-profile__links">
+        {% if author.location %}
+          <span class="header-profile__location"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</span>
+        {% endif %}
+        {% if author.employer %}
+          <span class="header-profile__employer"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</span>
+        {% endif %}
+      </div>
+
+      <div class="header-profile__social">
+        {% if author.uri %}
+          <a href="{{ author.uri }}" class="header-profile__link"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a>
+        {% endif %}
+        {% if author.email %}
+          <a href="mailto:{{ author.email }}" class="header-profile__link"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a>
+        {% endif %}
+        {% if author.github %}
+          <a href="https://github.com/{{ author.github }}" class="header-profile__link"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a>
+        {% endif %}
+        {% if author.googlescholar %}
+          <a href="{{ author.googlescholar }}" class="header-profile__link"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a>
+        {% endif %}
+        {% if author.linkedin %}
+          <a href="https://linkedin.com/in/{{ author.linkedin }}" class="header-profile__link"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a>
+        {% endif %}
+             </div>
+     </div>
+   </div>
+ </div>
+</div> 

@@ -1,0 +1,243 @@
+/* ==========================================================================
+   HEADER PROFILE
+   ========================================================================== */
+
+.header-profile {
+  background: transparent;
+  border-bottom: none;
+  padding: 0 1em;
+  margin-bottom: 2em;
+  margin-top: $masthead-height; // Add space for the fixed header
+
+  // Terminal window wrapper
+  .terminal-window {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #2d3748;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    position: relative;
+
+    // Terminal window header with traffic lights
+    &::before {
+      content: '';
+      display: block;
+      background: #4a5568;
+      height: 40px;
+      position: relative;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 14px;
+      left: 16px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #fc8181;
+      box-shadow: 20px 0 0 #f6e05e, 40px 0 0 #68d391;
+    }
+  }
+
+
+
+  &__container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    background: #2d3748;
+    color: #e2e8f0;
+    font-family: 'JetBrains Mono', 'Fira Code', Monaco, Consolas, monospace;
+    position: relative;
+
+    @include breakpoint(max-width $small) {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5em;
+      padding: 1.5em;
+    }
+  }
+
+  &__avatar {
+    flex-shrink: 0;
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 8px;
+      object-fit: cover;
+      border: 2px solid #4fd1c7;
+      box-shadow: 0 0 20px rgba(79, 209, 199, 0.3);
+
+      @include breakpoint(max-width $small) {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+  &__content {
+    flex: 1;
+    min-width: 0; // Prevent flex item from overflowing
+  }
+
+  &__name {
+    font-size: $type-size-2;
+    font-weight: 700;
+    margin: 0 0 0.5em 0;
+    color: #4fd1c7;
+    line-height: 1.2;
+    font-family: inherit;
+
+    @include breakpoint(max-width $small) {
+      font-size: $type-size-3;
+    }
+
+    &::before {
+      content: '> ';
+      color: #68d391;
+    }
+  }
+
+  &__pronouns {
+    font-size: $type-size-5;
+    color: #a0aec0;
+    margin: 0 0 0.5em 0;
+    font-style: normal;
+  }
+
+  &__bio {
+    font-size: $type-size-6;
+    color: #e2e8f0;
+    margin: 0 0 1em 0;
+    line-height: 1.6;
+    font-family: inherit;
+
+    &::before {
+      content: '# ';
+      color: #68d391;
+    }
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 1em;
+
+    @include breakpoint(max-width $small) {
+      justify-content: center;
+      gap: 1em;
+    }
+
+    span {
+      font-size: $type-size-6;
+      color: #a0aec0;
+      display: flex;
+      align-items: center;
+      font-family: inherit;
+
+      &::before {
+        content: '$ ';
+        color: #f6e05e;
+        margin-right: 0.3em;
+      }
+
+      i {
+        margin-right: 0.5em;
+        color: #4fd1c7;
+      }
+    }
+  }
+
+  &__social {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+
+    @include breakpoint(max-width $small) {
+      justify-content: center;
+    }
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4em 0.8em;
+    background: #4a5568;
+    border: 1px solid #68d391;
+    border-radius: 4px;
+    color: #68d391;
+    text-decoration: none;
+    font-size: $type-size-7;
+    font-weight: 500;
+    font-family: inherit;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: #68d391;
+      color: #2d3748;
+      transform: none;
+      box-shadow: 0 0 10px rgba(104, 211, 145, 0.4);
+    }
+
+    &::before {
+      content: './';
+      margin-right: 0.3em;
+      color: #f6e05e;
+    }
+
+    i {
+      margin-right: 0.5em;
+    }
+  }
+}
+
+// Override main content layout when header profile is shown
+.header-profile ~ #main {
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 0 1em !important;
+  float: none !important;
+
+  .page {
+    width: 100% !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+    float: none !important;
+
+    @include breakpoint($large) {
+      width: 100% !important;
+      margin-left: 0 !important;
+      float: none !important;
+      // Override Susy grid settings
+      @include span(12 of 12);
+      @include prefix(0);
+      @include suffix(0);
+    }
+  }
+
+  .archive {
+    width: 100% !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+    float: none !important;
+
+    @include breakpoint($large) {
+      width: 100% !important;
+      margin-left: 0 !important;
+      float: none !important;
+    }
+  }
+
+  .page__inner-wrap {
+    max-width: none !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+} 

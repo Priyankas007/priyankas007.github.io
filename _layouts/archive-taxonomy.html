@@ -3,8 +3,14 @@ layout: default
 author_profile: false
 ---
 
+{% if page.author_profile or layout.author_profile %}
+  {% include header-profile.html %}
+{% endif %}
+
 <div id="main" role="main">
-  {% include sidebar.html %}
+  {% unless page.author_profile or layout.author_profile %}
+    {% include sidebar.html %}
+  {% endunless %}
 
   <div class="archive">
     <h1 class="page__title">{{ page.title }}</h1>
